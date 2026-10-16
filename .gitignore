@@ -1,0 +1,22 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# OS, editor, and local tooling files
+.DS_Store
+.idea/
+.vscode/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local knowledge-base content and generated indexes
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/chroma_db/*
+!data/chroma_db/.gitkeep
