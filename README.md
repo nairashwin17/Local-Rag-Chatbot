@@ -30,7 +30,7 @@ Documents in `docs/` are indexed by default. Put any additional approved local f
 
 ```bash
 python -m ingestion.index_documents
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 Rerun the ingestion command after adding or editing a document. Unchanged chunks keep their stable IDs and are not duplicated.
